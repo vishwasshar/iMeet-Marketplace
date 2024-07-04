@@ -48,18 +48,7 @@ Imeet-Marketplace is a basic e-commerce project designed to understand the funda
     npm install
     ```
 
-4. **Create a Firebase project** and obtain your Firebase configuration. Add your Firebase config to a `.env` file in the root directory:
-
-    ```env
-    REACT_APP_FIREBASE_API_KEY=your_api_key
-    REACT_APP_FIREBASE_AUTH_DOMAIN=your_auth_domain
-    REACT_APP_FIREBASE_PROJECT_ID=your_project_id
-    REACT_APP_FIREBASE_STORAGE_BUCKET=your_storage_bucket
-    REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
-    REACT_APP_FIREBASE_APP_ID=your_app_id
-    ```
-
-5. **Run the development server**:
+4. **Run the development server**:
 
     ```bash
     npm start

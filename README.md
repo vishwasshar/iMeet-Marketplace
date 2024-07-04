@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# Imeet-Marketplace
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Live Demo**: [https://vi-imagehub.netlify.app/](https://vi-imagehub.netlify.app/)
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+Imeet-Marketplace is a basic e-commerce project designed to understand the fundamental flow of an online marketplace. This application showcases essential e-commerce functionalities, such as user authentication, product management, and cart operations, while also demonstrating dynamic routing in React and Firebase integration.
 
-### `npm start`
+### Key Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React**: Utilizes React for building dynamic and interactive user interfaces.
+- **Firebase**: Implements Firebase for user authentication, including Google login.
+- **Dynamic Routing**: Leverages React Router for dynamic routing and page navigation.
+- **State Management**: Uses Redux Toolkit for efficient state management.
+- **Persistent State**: Employs Redux Persist to maintain state across page reloads.
+- **Animations**: Incorporates AOS for smooth animations.
+- **Toast Notifications**: Utilizes React Toastify for user notifications.
+- **Responsive Design**: Ensures the application is accessible on various devices.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Technologies Used
 
-### `npm test`
+- **React**: Library for building user interfaces.
+- **Firebase**: Platform for authentication and backend services.
+- **Redux Toolkit**: Toolset for efficient Redux development.
+- **React Router**: Library for routing in React applications.
+- **Redux Persist**: Library for persisting Redux state.
+- **AOS (Animate On Scroll)**: Library for adding scroll animations.
+- **React Toastify**: Library for toast notifications.
+- **React Icons**: Library for using icons in React applications.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Setup and Installation
 
-### `npm run build`
+1. **Clone the repository**:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    ```bash
+    git clone https://github.com/vishwasshar/imeet-marketplace.git
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. **Navigate to the project directory**:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    ```bash
+    cd imeet-marketplace
+    ```
 
-### `npm run eject`
+3. **Install dependencies**:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    ```bash
+    npm install
+    ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. **Create a Firebase project** and obtain your Firebase configuration. Add your Firebase config to a `.env` file in the root directory:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    ```env
+    REACT_APP_FIREBASE_API_KEY=your_api_key
+    REACT_APP_FIREBASE_AUTH_DOMAIN=your_auth_domain
+    REACT_APP_FIREBASE_PROJECT_ID=your_project_id
+    REACT_APP_FIREBASE_STORAGE_BUCKET=your_storage_bucket
+    REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
+    REACT_APP_FIREBASE_APP_ID=your_app_id
+    ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+5. **Run the development server**:
 
-## Learn More
+    ```bash
+    npm start
+    ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The application will run at `http://localhost:3000`.

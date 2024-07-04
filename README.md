@@ -66,3 +66,13 @@ Imeet-Marketplace is a basic e-commerce project designed to understand the funda
     ```
 
 The application will run at `http://localhost:3000`.
+
+## Contact Information
+
+For any questions, feedback, or contributions, feel free to reach out to me via:
+
+- **Email**: [vishwassharma3287@gmail.com](mailto:vishwassharma3287@gmail.com)
+- **LinkedIn**: [Vishwas Sharma](https://www.linkedin.com/in/vishwassharma3287/)
+
+I welcome your input and look forward to connecting with you!
+

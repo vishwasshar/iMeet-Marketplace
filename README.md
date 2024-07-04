@@ -1,6 +1,6 @@
 # Imeet-Marketplace
 
-**Live Demo**: [https://vi-imagehub.netlify.app/](https://vi-imagehub.netlify.app/)
+**Live Demo**: [https://imeet-marketplace.netlify.app/](https://imeet-marketplace.netlify.app/)
 
 ## Description
 
